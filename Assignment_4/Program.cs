@@ -16,6 +16,12 @@
         //{
         //    pages += 50;
         //}
+        //--------------------------------------------------------------------
+        //static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5;
+        //}
+        //--------------------------------------------------------------------
         static void Main(string[] args)
         {
             //#region Question 1
@@ -48,6 +54,13 @@
             //int pages = 400;
             //AddBonusPages(pages);
             //Console.WriteLine(pages);
+            //#endregion
+
+            //#region Question 6
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+
             //#endregion
         }
     }
