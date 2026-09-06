@@ -2,10 +2,15 @@
 {
     internal class Program
     {
-        static void PrintWelcomeMessage()
-        {
-            Console.WriteLine("Welcome to the Library!");
-        }
+        //static void PrintWelcomeMessage()
+        //{
+        //    Console.WriteLine("Welcome to the Library!");
+        //}
+
+        //static void PrintBookTitle(string title)
+        //{
+        //    Console.WriteLine($"Book title: {title}");
+        //}
         static void Main(string[] args)
         {
             //#region Question 1
@@ -22,10 +27,16 @@
 
             //#endregion
 
-            #region Question 3
-            PrintWelcomeMessage();
+            //#region Question 3
+            //PrintWelcomeMessage();
 
-            #endregion
+            //#endregion
+
+            //#region Question 4
+
+            //PrintBookTitle("Clean Code");
+
+            //#endregion
         }
     }
 }
