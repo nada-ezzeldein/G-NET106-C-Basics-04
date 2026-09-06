@@ -54,6 +54,14 @@
         //    Console.WriteLine($"Title: {title}, Pages: {pages}");
         //}
         //--------------------------------------------------------------------
+        //static void PrintAllTitles(params string[] titles)
+        //{
+        //    foreach (string title in titles)
+        //    {
+        //        Console.WriteLine(title);
+        //    }
+        //}
+        //--------------------------------------------------------------------
         static void Main(string[] args)
         {
             //#region Question 1
@@ -126,6 +134,10 @@
 
             //PrintBookInfo(pages: 450, title: "Anything");
 
+            //#endregion
+
+            //#region Question 11
+            //PrintAllTitles("Nada", "Ezz Eldein", "Omar");
             //#endregion
         }
     }
