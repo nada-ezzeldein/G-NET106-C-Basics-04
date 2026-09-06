@@ -32,6 +32,23 @@
         //    prices = new double[] { 10.0, 12.5, 15.0 };
         //}
         //--------------------------------------------------------------------
+        //static bool TryGetPrice(string title, out double price)
+        //{
+        //    if (title == "Clean Code")
+        //    {
+        //        price = 25.5;
+        //        return true;
+        //    }
+
+        //    price = 0;
+        //    return false;
+        //}
+
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine($"Title: {title}, Pages: {pages}");
+        //}
+        //--------------------------------------------------------------------
         static void Main(string[] args)
         {
             //#region Question 1
@@ -83,6 +100,21 @@
             //double[] prices = { 25.5, 40.0 };
             //ReplaceArray(ref prices);
             //Console.WriteLine(prices.Length);
+            //#endregion
+
+            //#region Question 9
+
+            //if (TryGetPrice("Clean Code", out double price))
+            //{
+            //    Console.WriteLine($"Price found: {price}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Price not found.");
+            //}
+
+            //PrintBookInfo("The Killer");             
+            //PrintBookInfo("Fallen", 400);
             //#endregion
         }
     }
