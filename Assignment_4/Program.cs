@@ -22,6 +22,11 @@
         //    prices[0] -= 5;
         //}
         //--------------------------------------------------------------------
+        //static void AddBonusPagesByRef(ref int pages)
+        //{
+        //    pages += 50;
+        //}
+        //--------------------------------------------------------------------
         static void Main(string[] args)
         {
             //#region Question 1
@@ -61,6 +66,12 @@
             //ApplyDiscount(prices);
             //Console.WriteLine(prices[0]);
 
+            //#endregion
+
+            //#region Question 7
+            //int pages = 400;
+            //AddBonusPagesByRef(ref pages);
+            //Console.WriteLine(pages);
             //#endregion
         }
     }
