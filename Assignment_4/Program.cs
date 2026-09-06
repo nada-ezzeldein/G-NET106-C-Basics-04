@@ -6,10 +6,15 @@
         //{
         //    Console.WriteLine("Welcome to the Library!");
         //}
-
+        //--------------------------------------------------------------------
         //static void PrintBookTitle(string title)
         //{
         //    Console.WriteLine($"Book title: {title}");
+        //}
+        //--------------------------------------------------------------------
+        //static void AddBonusPages(int pages)
+        //{
+        //    pages += 50;
         //}
         static void Main(string[] args)
         {
@@ -36,6 +41,13 @@
 
             //PrintBookTitle("Clean Code");
 
+            //#endregion
+
+
+            //#region Question 5
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
             //#endregion
         }
     }
