@@ -49,6 +49,11 @@
         //    Console.WriteLine($"Title: {title}, Pages: {pages}");
         //}
         //--------------------------------------------------------------------
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine($"Title: {title}, Pages: {pages}");
+        //}
+        //--------------------------------------------------------------------
         static void Main(string[] args)
         {
             //#region Question 1
@@ -115,6 +120,12 @@
 
             //PrintBookInfo("The Killer");             
             //PrintBookInfo("Fallen", 400);
+            //#endregion
+
+            //#region Question 10
+
+            //PrintBookInfo(pages: 450, title: "Anything");
+
             //#endregion
         }
     }
